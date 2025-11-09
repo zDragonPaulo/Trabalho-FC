@@ -164,21 +164,27 @@ Work Resolution
 \section{Grupo I - Professor Rui Silva}
 Nesta secção serão respondidas as questões do Grupo I, focando-se na áreas do MITRE ATT\&CK 
 lecionadas pelo professor Rui Silva.
-\subsection{1.1}
+\subsection{Pergunta}
 Em resposta à questão 1.1, foram escolhidas para apresentar as áreas de \textit{Malware Protection} e \textit{Incident Coordination}, que podem ser
 consideradas como mutualismo/simbiose, uma vez que ambas as áreas trabalham em conjunto para fortalecer a defesa contra ameaças. Caso uma ameaça 
 seja detectada, pela área de \textit{Malware Protection}, a área de \textit{Incident Coordination} entra em ação para coordenar a resposta ao incidente,
 assegurando que as medidas adequadas sejam tomadas para mitigar o impacto da ameaça.
 \subsubsection{Malware Protection}
-A proteção de Malware é uma área que tem como objetivo impedir o acesso, a propagação e o impacto de softwares maliciosos (malware) em sistemas informáticos. 
-Esta área é efetiva contra ameaças já conhecidas, porém quando se trata de ameaças que utilizam exploits zero-day, ou seja, vulnerabilidades desconhecidas, a eficácia pode ser limitada. 
-Mesmo assim, a proteção de malware é uma componente crucial na defesa em profundidade, sendo que esta pode incluir várias técnicas e ferramentas, tais como 
-integrar e correlacionar informação de multiplicas fontes estáticos e dinâmicas para detetar com cada vez mais qualidade a presença de malware através da análise 
-da sua assinatura.
+A proteção contra malware envolve a implementação de medidas e tecnologias para prevenir, detectar e remover software malicioso que possa comprometer a segurança dos sistemas informáticos. No entanto, esta 
+proteção não é infalível, podendo ser contornada por malware que esteja camuflado ou que nunca tenha sido identificado, no caso do último, é conhecido como \textit{Zero-Day Malware}. Esta proteção 
+funciona através da análise de padrões comuns em ataques (CAPE), sendo que estes padrões foram identificados através do MAEC (Malware Attribute Enumeration and Characterization), que é um padrão 
+para a representação de informações sobre malware, permitindo a troca estruturada de dados entre diferentes ferramentas e sistemas de segurança. O objetivo principal do MAEC é facilitar a 
+detecção, análise e resposta a ameaças de malware, promovendo a interoperabilidade entre diferentes soluções de segurança. Este é utilizado pelo Incident Coordination para ajudar a prevenir 
+novos ataques com base no que a proteção de malware não conseguiu impedir.
+\newpage
 \subsubsection{Incident Coordination}
-A coordenação de incidentes é uma área que se concentra na gestão e resposta a incidentes de segurança informática. Esta área é responsável por coordenar as ações
-necessárias para lidar com incidentes, desde a deteção até à resolução. A coordenação de incidentes envolve a comunicação eficaz entre diferentes equipas, para que
-as decisões sejam tomadas o mais rapidamente possível para minimizar os danos.
+A coordenação de incidentes envolve a gestão e resposta a incidentes de segurança informática que não tenham sido superados pela proteção de malware, garantindo que as ameaças sejam tratadas de forma eficaz e eficiente. Isto inclui a identificação, análise, 
+contenção, erradicação e recuperação de incidentes de segurança. A coordenação eficaz de incidentes é crucial para minimizar o impacto das ameaças e garantir a continuidade das operações.
+Integrando e correlacionando informação de multiplicas fontes estáticos e dinâmicas, mais conhecidamente como IODEF (Incident Object Description Exchange Format), que é um padrão para a troca estruturada 
+de informações sobre incidentes de segurança informática, sendo que isto permite detetar com cada vez mais qualidade a presença de malware através da análise 
+da sua assinatura. Isto fica automatizado com o RID (Realtime Inter-network Defense), que é um protocolo que permite a troca automática e segura de informações sobre ameaças. Existem ainda outros 
+prótocolos como o TAXII (Trusted Automated eXchange of Indicator Information) que é um protocolo para a troca automatizada de indicadores de ameaças, e o STIX (Structured Threat Information eXpression) 
+que é uma linguagem padronizada para a representação de informações sobre ameaças cibernéticas, e estes são complementares sendo que o STIX é o formato que passa pelo TAXII para ser transmitido entre sistemas.
 
 %---------------------------------------------------------------------------------------------------------------------------
 

@@ -1,5 +1,5 @@
 \babel@toc {portuguese}{}\relax 
 \contentsline {section}{\numberline {1}Grupo I - Professor Rui Silva}{1}{section.1}%
-\contentsline {subsection}{\numberline {1.1}1.1}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.1}Pergunta}{1}{subsection.1.1}%
 \contentsline {subsubsection}{\numberline {1.1.1}Malware Protection}{1}{subsubsection.1.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.2}Incident Coordination}{1}{subsubsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.2}Incident Coordination}{2}{subsubsection.1.1.2}%
