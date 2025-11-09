@@ -1,0 +1,191 @@
+\documentclass[a4paper]{article}
+% Pacotes necessários
+\usepackage[portuguese]{babel}
+\usepackage[backend=biber, style=apa, citestyle=apa, language=portuguese]{biblatex}
+\usepackage{csquotes}
+\addbibresource{Recursos/referencias.bib}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{setspace}
+\usepackage{siunitx} % Required for alignment
+\sisetup{
+  round-mode          = places, % Rounds numbers
+  round-precision     = 2, % to 2 places
+}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{karnaugh-map}
+\usepackage[section]{placeins}
+\usepackage{geometry}
+\usepackage{amssymb}
+\usepackage{titling}
+\usepackage[T1]{fontenc}
+\usepackage{float}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage{indentfirst}
+\usepackage{array}
+\usepackage{soul}
+\usepackage{afterpage}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\onehalfspacing
+
+
+% Comando para criar uma página vazia
+\newcommand\myemptypage{
+    \null
+    \thispagestyle{empty}
+    \addtocounter{page}{-1}
+    \newpage
+}
+
+% Página de título principal
+\newcommand{\firsttitlepage}{
+    \begin{titlepage}
+        \centering
+        \vspace*{1cm}
+        
+        % Logos superior
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=6cm]{Recursos/LOGO_IPB} % Substitua pelo caminho da imagem
+            \vspace{0.5cm}
+        \end{figure}
+
+        % Informações da instituição
+        \large\textbf{INSTITUTO POLITÉCNICO DE BEJA} \\
+        \large\textbf{Escola Superior de Tecnologia e Gestão} \\
+        \large\textbf{Mestrado em Engenharia de Segurança Informática} \\
+        \large\textbf{Fundamentos de Cibersegurança} \\
+        
+        \vspace{2cm}
+        
+        % Título do projeto
+        {\Huge \textbf{Caso 1}} \\
+        
+        \vspace{1.5cm}
+        
+        % Autores
+        \large Paulo António Tavares Abade - 23919 \\
+        
+        \vfill
+        
+        % Logo inferior
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=6cm]{Recursos/IPBejaESTIG.jpg} % Substitua pelo caminho da imagem
+        \end{figure}
+        
+        \vspace{1cm}
+        
+        % Local e data
+        {\large Beja, outubro de 2025}
+    \end{titlepage}
+}
+
+\newcommand{\secondtitlepage}{
+    \begin{titlepage}
+        \centering
+        \vspace*{1cm}
+        
+        % Informações da instituição
+        \large\textbf{INSTITUTO POLITÉCNICO DE BEJA} \\
+        \large\textbf{Escola Superior de Tecnologia e Gestão} \\
+        \large\textbf{Mestrado em Engenharia de Segurança Informática} \\
+        \large\textbf{Fundamentos de Cibersegurança} \\
+        
+        \vspace{2cm}
+        
+        % Título do projeto
+        {\Huge \textbf{Caso 1}} \\
+        
+        \vspace{1.5cm}
+        
+        % Autores
+        \large Paulo António Tavares Abade - 23919 \\
+
+        \vspace{2cm}
+
+        % Orientador
+        \large Orientadores: Rui Silva \& Rogério Bravo \\
+        
+        \vfill
+        
+        % Local e data
+        {\large Beja, outubro de 2025}
+    \end{titlepage}
+}
+
+\begin{document}
+
+
+\pagenumbering{gobble} % Oculta numeração da página
+
+% Primeira página de título
+\firsttitlepage
+
+\secondtitlepage
+
+
+% Abstract
+\section*{\LARGE\textbf{\textit{Resumo}}}
+
+Resolução do trabalho 
+
+
+\vspace{1cm}
+% Keywords
+\textbf{Keywords:} cibersegurança
+%--------------------------------------------------------------------------------------------------------------------------------------
+
+\section*{\LARGE\textbf{\textit{Abstract}}}
+
+Work Resolution
+
+\vspace{1cm}
+% Keywords
+\textbf{Keywords:} cybersecurity
+\renewcommand{\contentsname}{Índice}       % Título do sumário
+\renewcommand{\listfigurename}{Índice de Figuras} % Título da lista de figuras
+
+% Início do conteúdo do relatório
+\newpage
+\doublespacing
+\tableofcontents
+\listoffigures
+\doublespacing
+
+\newpage
+\pagenumbering{arabic}
+
+\section{Grupo I - Professor Rui Silva}
+Nesta secção serão respondidas as questões do Grupo I, focando-se na áreas do MITRE ATT\&CK 
+lecionadas pelo professor Rui Silva.
+\subsection{1.1}
+Em resposta à questão 1.1, foram escolhidas para apresentar as áreas de \textit{Malware Protection} e \textit{Incident Coordination}, que podem ser
+consideradas como mutualismo/simbiose, uma vez que ambas as áreas trabalham em conjunto para fortalecer a defesa contra ameaças. Caso uma ameaça 
+seja detectada, pela área de \textit{Malware Protection}, a área de \textit{Incident Coordination} entra em ação para coordenar a resposta ao incidente,
+assegurando que as medidas adequadas sejam tomadas para mitigar o impacto da ameaça.
+\subsubsection{Malware Protection}
+A proteção de Malware é uma área que tem como objetivo impedir o acesso, a propagação e o impacto de softwares maliciosos (malware) em sistemas informáticos. 
+Esta área é efetiva contra ameaças já conhecidas, porém quando se trata de ameaças que utilizam exploits zero-day, ou seja, vulnerabilidades desconhecidas, a eficácia pode ser limitada. 
+Mesmo assim, a proteção de malware é uma componente crucial na defesa em profundidade, sendo que esta pode incluir várias técnicas e ferramentas, tais como 
+integrar e correlacionar informação de multiplicas fontes estáticos e dinâmicas para detetar com cada vez mais qualidade a presença de malware através da análise 
+da sua assinatura.
+\subsubsection{Incident Coordination}
+A coordenação de incidentes é uma área que se concentra na gestão e resposta a incidentes de segurança informática. Esta área é responsável por coordenar as ações
+necessárias para lidar com incidentes, desde a deteção até à resolução. A coordenação de incidentes envolve a comunicação eficaz entre diferentes equipas, para que
+as decisões sejam tomadas o mais rapidamente possível para minimizar os danos.
+
+%---------------------------------------------------------------------------------------------------------------------------
+
+\newpage
+\renewcommand{\refname}{Bibliografia} % Para artigos
+\renewcommand{\bibname}{Bibliografia} % Para livros e relatórios
+\addcontentsline{toc}{section}{Bibliografia} % Adiciona a Bibliografia ao índice
+\printbibliography
+
+\end{document}
