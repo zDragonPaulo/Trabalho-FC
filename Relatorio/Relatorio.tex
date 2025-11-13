@@ -64,7 +64,7 @@
         \vspace{2cm}
         
         % Título do projeto
-        {\Huge \textbf{Caso 1}} \\
+        {\Huge \textbf{Trabalho Individual}} \\
         
         \vspace{1.5cm}
         
@@ -100,7 +100,7 @@
         \vspace{2cm}
         
         % Título do projeto
-        {\Huge \textbf{Caso 1}} \\
+        {\Huge \textbf{Trabalho Individual}} \\
         
         \vspace{1.5cm}
         
@@ -185,6 +185,28 @@ de informações sobre incidentes de segurança informática, sendo que isto per
 da sua assinatura. Isto fica automatizado com o RID (Realtime Inter-network Defense), que é um protocolo que permite a troca automática e segura de informações sobre ameaças. Existem ainda outros 
 prótocolos como o TAXII (Trusted Automated eXchange of Indicator Information) que é um protocolo para a troca automatizada de indicadores de ameaças, e o STIX (Structured Threat Information eXpression) 
 que é uma linguagem padronizada para a representação de informações sobre ameaças cibernéticas, e estes são complementares sendo que o STIX é o formato que passa pelo TAXII para ser transmitido entre sistemas.
+
+
+\subsection{MITRE - Projeto de ATT\&CK - Night Dragon}
+O projecto \textit{Night Dragon} foi uma campanha de ciberespionagem que visou várias empresas de energia, petróleo e os seus derivados, 
+sediadas no Cazaquistão, Taiwan, Grécia e Estados Unidos da América, e a campanha foi descoberta em novembro de 2009 pela McAfee. 
+O objetivo principal desta campanha era roubar informações confidenciais e proprietárias relacionadas com a indústria de energia. 
+Primeiramente, os atacantes compraram serviços para alojar os servidores que iriam controlar as vítimas e usavam os protocolos HTTP 
+como meio de comunicação, pois estes ficavam disfarçados entre o tráfego legítimo. A partir de SQL Injection para obter os dados, 
+era utilizado o software \textit{Cain \& Abel} para realizar ataques de brute-force para decifrar os hashes das palavras-passe 
+dos administradores de sistemas, conseguindo assim aceder remotamente aos sistemas das vítimas, e com o \textit{zwShell} 
+implantado os atacantes podiam executar comandos remotamente. Com isso, os atacantes começaram a obter ficheiros e outras 
+informações sensíveis de sistemas comprometidos, enviando-os para os servidores que tinham sido comprados anteriormente.
+
+
+Ainda utilizaram um RAT (Remote Access Trojan), usando os servidores afetados para fazer ataques a alvos internos através 
+de e-mails de spear-phishing que continham anexos maliciosos que, quando abertos, instalavam o RAT nos sistemas das vítimas. 
+O alvo principal desta parte do ataque eram portáteis que tinham contas de VPN e que permitiam obter ainda mais acesso aos 
+sistemas internos. A estratégia baseava-se em usar ferramentas de roubo de palavras-passe e, ao entrar, deixar um RAT.
+
+Após a investigação, a McAfee concluiu que o grupo responsável pelo \textit{Night Dragon} tinha ligações à China, 
+trabalhava entre as 9h e as 17h no horário de Pequim, e que o grupo tinha como alvo empresas específicas, sugerindo 
+que a campanha era motivada por interesses económicos e estratégicos. 
 
 %---------------------------------------------------------------------------------------------------------------------------
 
