@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber Relatorio"] 0 "Relatorio.bcf" "Relatorio.bbl" "Relatorio" 1763053558.19995 -1
+["biber Relatorio"] 0 "Relatorio.bcf" "Relatorio.bbl" "Relatorio" 1763062536.39731 -1
   "Recursos/referencias.bib" 1762896255.27391 2153 5dcbceb746276a39a72f420965ba1d70 ""
-  "Relatorio.bcf" 1763053558.10724 132888 4045172232089a960efc07bd62e144cb "pdflatex"
+  "Relatorio.bcf" 1763062536.30551 132888 4045172232089a960efc07bd62e144cb "pdflatex"
   (generated)
   "Relatorio.bbl"
   "Relatorio.blg"
   (rewritten before read)
-["pdflatex"] 1763053557.14528 "/home/zdragonpaulo/Documentos/ESTIG/Mestrado/FC/Trabalho-FC/Relatorio/Relatorio.tex" "Relatorio.pdf" "Relatorio" 1763053558.20029 0
+["pdflatex"] 1763062535.36493 "/home/zdragonpaulo/Documentos/ESTIG/Mestrado/FC/Trabalho-FC/Relatorio/Relatorio.tex" "Relatorio.pdf" "Relatorio" 1763062536.39763 0
   "/etc/texmf/web2c/texmf.cnf" 1763047061.95878 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/zdragonpaulo/Documentos/ESTIG/Mestrado/FC/Trabalho-FC/Relatorio/Relatorio.tex" 1763053556.95781 9784 f716dbfa61c04fdb3363f53ee616c376 ""
+  "/home/zdragonpaulo/Documentos/ESTIG/Mestrado/FC/Trabalho-FC/Relatorio/Relatorio.tex" 1763062535.17826 10933 c22b63f3a2cd446e4b7323fe5eb6b20d ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbi1728.tfm" 1136768653 3072 2959528dccaaa7d10ad6a2c207db6ce3 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm" 1136768653 3584 2d666ecf6d466d8b007246bc2f94d9da ""
@@ -209,13 +209,13 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1763047129 8213183 32256a84b1d69acfa94e77fcb5911702 ""
   "Recursos/IPBejaESTIG.jpg" 1762896255.27357 24524 9013eada23a35bd7ca5928b6c8c0df92 ""
   "Recursos/LOGO_IPB.png" 1762896255.27391 70931 20e64aecf22b430f7bd09b27ea5f9a05 ""
-  "Relatorio.aux" 1763053558.10479 1036 74592ae5a8f5faf751c39dfe6f871eb8 "pdflatex"
+  "Relatorio.aux" 1763062536.30251 1194 eb35ad11b0ab2fc6317122ce600c6339 "pdflatex"
   "Relatorio.bbl" 1763053461.92682 466 ee04f40f768daeed26442158e95aba61 "biber Relatorio"
-  "Relatorio.lof" 1763053558.10789 33 e37f84d12b50aa32dade73d7d1c52b61 "pdflatex"
-  "Relatorio.out" 1763053558.10579 916 182c09b17d88cf34d4d158af298ded64 "pdflatex"
-  "Relatorio.run.xml" 1763053558.10789 2410 717c0927f41f216f3cf4bba59bbfc439 "pdflatex"
-  "Relatorio.tex" 1763053556.95781 9784 f716dbfa61c04fdb3363f53ee616c376 ""
-  "Relatorio.toc" 1763053558.10789 490 6d2a0cf63a69c89874764070474df6dd "pdflatex"
+  "Relatorio.lof" 1763062536.3066 33 e37f84d12b50aa32dade73d7d1c52b61 "pdflatex"
+  "Relatorio.out" 1763062536.3035 1248 b17045900f8ec8bcf878a2b24ca88e3a "pdflatex"
+  "Relatorio.run.xml" 1763062536.3066 2410 717c0927f41f216f3cf4bba59bbfc439 "pdflatex"
+  "Relatorio.tex" 1763062535.17826 10933 c22b63f3a2cd446e4b7323fe5eb6b20d ""
+  "Relatorio.toc" 1763062536.3066 607 7dd6a88a8134b9ebabd6ba5f75a9246f "pdflatex"
   (generated)
   "Relatorio.aux"
   "Relatorio.bcf"
