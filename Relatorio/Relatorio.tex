@@ -183,7 +183,7 @@ contenção, erradicação e recuperação de incidentes de segurança. A coorde
 Integrando e correlacionando informação de multiplicas fontes estáticos e dinâmicas, mais conhecidamente como IODEF (Incident Object Description Exchange Format), que é um padrão para a troca estruturada 
 de informações sobre incidentes de segurança informática, sendo que isto permite detetar com cada vez mais qualidade a presença de malware através da análise 
 da sua assinatura. Isto fica automatizado com o RID (Realtime Inter-network Defense), que é um protocolo que permite a troca automática e segura de informações sobre ameaças. Existem ainda outros 
-prótocolos como o TAXII (Trusted Automated eXchange of Indicator Information) que é um protocolo para a troca automatizada de indicadores de ameaças, e o STIX (Structured Threat Information eXpression) 
+prótocolos como o \textit{TAXII} (Trusted Automated eXchange of Indicator Information) que é um protocolo para a troca automatizada de indicadores de ameaças, e o \textit{STIX} (Structured Threat Information eXpression) 
 que é uma linguagem padronizada para a representação de informações sobre ameaças cibernéticas, e estes são complementares sendo que o STIX é o formato que passa pelo TAXII para ser transmitido entre sistemas.
 
 
@@ -200,7 +200,7 @@ informações sensíveis de sistemas comprometidos, enviando-os para os servidor
 
 
 Ainda utilizaram um RAT (Remote Access Trojan), usando os servidores afetados para fazer ataques a alvos internos através 
-de e-mails de spear-phishing que continham anexos maliciosos que, quando abertos, instalavam o RAT nos sistemas das vítimas. 
+de e-mails de \textit{spear-phishing} que continham anexos maliciosos que, quando abertos, instalavam o RAT nos sistemas das vítimas. 
 O alvo principal desta parte do ataque eram portáteis que tinham contas de VPN e que permitiam obter ainda mais acesso aos 
 sistemas internos. A estratégia baseava-se em usar ferramentas de roubo de palavras-passe e, ao entrar, deixar um RAT.
 
@@ -224,11 +224,11 @@ maximizando as chances de sucesso para cada situação, onde cada alvo tem os se
 \section{Grupo II - Professor Rogério Bravo}
 
 Nesta secção serão respondidas as questões do Grupo II, focando-se na parte da teoria da cibersegurança, 
-variando desde os pilares da cibersegurança, intervenção digital forense, os padrões ISO 27000, as três dimensões 
+variando desde os pilares da cibersegurança, intervenção digital forense, os padrões \textit{ISO 27000}, as três dimensões 
 da cibersegurança, entre outros tópicos lecionados pelo professor Rogério Bravo.
 \subsection{Pergunta - Os 4 Pilares da Cibersegurança}
 Os quatro pilares da cibersegurança são as tecnologias, as pessoas, as organizações e a segurança física. 
-Estes pilares sustentam a base em que as ISO 27000 são construídas, e cada um deles desempenha um papel 
+Estes pilares sustentam a base em que as \textit{ISO 27000} são construídas, e cada um deles desempenha um papel 
 crucial na proteção dos sistemas informáticos e dos dados contra ameaças cibernéticas.
 %---------------------------------------------------------------------------------------------------------------------------
 \subsubsection{Tecnologias}
@@ -270,6 +270,43 @@ garantindo a conformidade com as leis e regulamentos aplicáveis.
 \newpage
 %---------------------------------------------------------------------------------------------------------------------------
 \subsection{As três dimensões da segurança da informação}
+Existem três dimensões principais para garantir a segurança da informação, sendo elas a segurança 
+física, a segurança lógica e a segurança humana. Todas estas dimensões estão ligadas entre si, e estão de acordo 
+com a \textit{SEGNAC4}, sendo esta a \textit{Resolução do Conselho de Ministros 5/1990}, onde são estabelecidas normas e procedimentos 
+que visam garantir a segurança da informação em sistemas informáticos, especialmente aqueles utilizados por entidades
+públicas.
+%---------------------------------------------------------------------------------------------------------------------------
+\subsubsection{Segurança Física}
+A segurança física envolve a proteção dos dispositivos físicos, como servidores, data centers e dispositivos de rede, 
+contra acessos não autorizados, roubos e danos. Isto inclui medidas como controlo de acesso físico, vigilância por vídeo, 
+sistemas de alarme e proteção contra desastres naturais. No contexto da SEGNAC4, a segurança física é fundamental para garantir 
+o acesso restrito a áreas sensíveis e a proteção dos equipamentos contra ameaças que possam roubar ou danificar a informação armazenada.
+%---------------------------------------------------------------------------------------------------------------------------
+\subsubsection{Segurança Lógica}
+A segurança lógica baseia-se na proteção dos sistemas informáticos e das redes contra acessos não autorizados digitalmente, onde as medidas 
+incluem autenticação, criptografia, firewalls, entre outros métodos que possam limitar o acesso a estes sistemas. 
+No âmbito da \textit{SEGNAC4}, é essencial implementar estas medidas para garantir a confidencialidade e integridade da informação classificada que está 
+armazenada ou a ser transmitida através de sistemas informáticos.
+%---------------------------------------------------------------------------------------------------------------------------
+\subsubsection{Segurança Humana}
+A segurança humana refere-se à formação e sensibilização dos utilizadores para garantir que compreendam os riscos 
+ao quais estão exposos e adotem práticas seguras, como a criação de palavras-passe fortes, o reconhecimento de tentativas de phishing,
+e não partilhar informações sobre o trabalho, especialmente em ambientes de acesso público. No contexto da \textit{SEGNAC4}, a segurança humana é 
+crucial para prevenir vulnerabilidades que possam ser exploradas por atacantes, já que o fator humano é frequentemente a maior fraqueza 
+dos sistemas informáticos.
+\newpage 
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{O Conceito de Governança}
+A Governança, ao ser apresentada neste curso, refere-se a saber \textbf{quando e como alguém} acedeu a um sistema informático, 
+sendo uma monitorização que permite injeção de informação nos \textit{SIEM} (Security Information and Event Management), a gestão de dispositivos 
+e registo de logs. Estes logs devem conter o endereço IP, a data e hora do acesso (em hora, minuto, segundos e fuso horário) e o 
+porto de comunicação utilizado. A Governança deve ainda incluir assinaturas de ataques, segmentação de redes para evitar a propagação 
+de incidentes e segregação de funções para impedir o comprometimento de dados.
+
+Este conceito coincide com a \textit{Resolução do Conselho de Ministros 41/2018}, que promove o reforço das capacidades de monitorização, 
+deteção e resposta a incidentes e incentiva a implementação de medidas técnicas para aumentar a resiliência das infraestruturas 
+críticas. Assim, a Governança apresentada no curso está plenamente alinhada com os objetivos estratégicos da resolução no 
+contexto da cibersegurança.
 \newpage
 \renewcommand{\refname}{Bibliografia} % Para artigos
 \renewcommand{\bibname}{Bibliografia} % Para livros e relatórios
