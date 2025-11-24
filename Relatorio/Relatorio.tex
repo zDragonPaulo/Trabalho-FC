@@ -164,14 +164,14 @@ Work Resolution
 \section{Grupo I - Professor Rui Silva}
 Nesta secção serão respondidas as questões do Grupo I, focando-se na áreas do MITRE ATT\&CK 
 lecionadas pelo professor Rui Silva.
-\subsection{Pergunta}
+\subsection{Pergunta - Apresentação de duas áreas do MITRE ATT\&CK}
 Em resposta à questão 1.1, foram escolhidas para apresentar as áreas de \textit{Malware Protection} e \textit{Incident Coordination}, que podem ser
 consideradas como mutualismo/simbiose, uma vez que ambas as áreas trabalham em conjunto para fortalecer a defesa contra ameaças. Caso uma ameaça 
 seja detectada, pela área de \textit{Malware Protection}, a área de \textit{Incident Coordination} entra em ação para coordenar a resposta ao incidente,
 assegurando que as medidas adequadas sejam tomadas para mitigar o impacto da ameaça.
 \subsubsection{Malware Protection}
 A proteção contra malware envolve a implementação de medidas e tecnologias para prevenir, detectar e remover software malicioso que possa comprometer a segurança dos sistemas informáticos. No entanto, esta 
-proteção não é infalível, podendo ser contornada por malware que esteja camuflado ou que nunca tenha sido identificado, no caso do último, é conhecido como \textit{Zero-Day Malware}. Esta proteção 
+proteção não é infalível, podendo ser contornada por \textit{malwares} que esteja camuflado ou que nunca tenha sido identificado, no caso do último, é conhecido como \textit{Zero-Day Malware}. Esta proteção 
 funciona através da análise de padrões comuns em ataques (CAPE), sendo que estes padrões foram identificados através do MAEC (Malware Attribute Enumeration and Characterization), que é um padrão 
 para a representação de informações sobre malware, permitindo a troca estruturada de dados entre diferentes ferramentas e sistemas de segurança. O objetivo principal do MAEC é facilitar a 
 detecção, análise e resposta a ameaças de malware, promovendo a interoperabilidade entre diferentes soluções de segurança. Este é utilizado pelo Incident Coordination para ajudar a prevenir 
@@ -214,11 +214,11 @@ que a campanha era motivada por interesses económicos e estratégicos.
 A tática de \textit{Initial Access} tem o objetivo de conseguir o primeiro ponto de entrada numa rede e/ou alvo. Existem várias 
 técnicas para alcançar este objetivo, sendo a mais conhecida o \textit{Phishing/Spear-Phishing}, que envolve o envio de e-mails, 
 SMS ou aplicações que aparentam ser legítimos, mas que contêm links ou anexos maliciosos. No caso do \textit{Enterprise}, qualquer 
-funcionário pode ser alvo deste tipo e-mails, enquanto que no \textit{Mobile}, o alvo costuma ser o utilizador final e pode ser 
+funcionário da empresa pode ser alvo deste tipo e-mails, enquanto que no \textit{Mobile}, o alvo costuma ser o utilizador final e pode ser 
 vitíma através de SMS, aplicações ou chamadas telefónicas. Por fim, no \textit{ICS}, o alvo vai ser o funcionário ou grupo de funcionários 
 de uma organização que possua acesso a sistemas industriais, e estes podem ser vítimas através de e-mails ou chamadas telefónicas. 
 
-Existem estas varias de \textit{Phishing/Spear-Phishing} porque cada ambiente tem as suas particularidades, e o atacante deve adaptar-se a cada um deles, 
+Existem diversas variantes de \textit{Phishing/Spear-Phishing} porque cada ambiente tem as suas particularidades, e o atacante deve adaptar-se a cada um deles, 
 maximizando as chances de sucesso para cada situação, onde cada alvo tem os seus próprios hábitos e rotinas.
 \newpage
 \section{Grupo II - Professor Rogério Bravo}
@@ -237,8 +237,8 @@ informáticos. Isto inclui firewalls, sistemas de deteção de intrusões, antiv
 soluções de segurança que ajudam a prevenir, detectar e responder a ameaças cibernéticas. 
 %---------------------------------------------------------------------------------------------------------------------------
 \subsubsection{Pessoas}
-As pessoas é o pilar que mais impacto tem na cibersegurança, uma vez que representam o elo mais fraco da cibersegurança, 
-pois são quem utiliza as tecnologias e quem tem acesso a sistemas e dados sensíveis, e se não forem devidamente treinadas e conscientes das ameaças, podem 
+As pessoas é o pilar com mais impacto na cibersegurança, uma vez que representam o elo mais fraco da cibersegurança, 
+pois são quem utilizam as tecnologias e quem tem acesso a sistemas e dados sensíveis. E se não forem devidamente treinadas e conscientes das ameaças, podem 
 inadvertidamente comprometer a segurança dos sistemas. A formação e a sensibilização dos utilizadores 
 são essenciais para garantir que eles compreendam os riscos e adotem práticas seguras.
 %---------------------------------------------------------------------------------------------------------------------------
@@ -250,11 +250,11 @@ gestão de incidentes. As organizações devem criar uma cultura de segurança q
 a conformidade com as regulamentações e melhores práticas.
 
 \subsubsection{Segurança Física}
-A segurança física refere-se à proteção dos ativos físicos, como servidores, data centers e dispositivos de rede, contra
+A segurança física refere-se à proteção dos ativos físicos, como servidores, \textit{data centers} e dispositivos de rede, contra
 acessos não autorizados, roubos e danos. Isto inclui medidas como controlo de acesso físico, vigilância por vídeo, 
-sistemas de alarme e proteção contra desastres naturais. Ou seja, é fundamental que esteja num local seguro e com acesso 
-restrito apenas a pessoas autorizadas. Se possível também deve estar protegido contra falhas de energia ou falhas 
-de hardware, nomeadamente um disco rígido com defeito.
+sistemas de alarme e proteção contra desastres naturais. Ou seja, é fundamental que os dispositivos estejam num local seguro e com acesso 
+restrito apenas a pessoas autorizadas. Se possível também devem estar protegido contra falhas de energia ou falhas 
+de \textit{hardware}, como por exemplo, um disco rígido com defeito.
 %---------------------------------------------------------------------------------------------------------------------------
 
 \subsubsection{O pilar na intervenção digital forense}
@@ -264,7 +264,7 @@ os profissionais forenses são responsáveis por coletar, analisar e preservar e
 regulamentos relacionados com a cibersegurança e a privacidade. Além de que devem seguir rigorosos 
 protocolos para garantir a integridade das evidências e evitar contaminação ou adulteração, como por exemplo, 
 ao iniciar uma análise forense, impedir que o antívirus faça alterações nos ficheiros, ou seja, colocar o sistema em 
-modo de \textit{read-only}, entrando no parte do pilar das tecnologias e ao mesmo tempo entra no pilar das 
+modo de \textit{read-only}, entrando na parte do pilar das tecnologias e ao mesmo tempo no pilar das 
 organizações, onde estas devem ter políticas e procedimentos claros para a condução de investigações forenses, 
 garantindo a conformidade com as leis e regulamentos aplicáveis.
 \newpage
@@ -277,20 +277,20 @@ que visam garantir a segurança da informação em sistemas informáticos, espec
 públicas.
 %---------------------------------------------------------------------------------------------------------------------------
 \subsubsection{Segurança Física}
-A segurança física envolve a proteção dos dispositivos físicos, como servidores, data centers e dispositivos de rede, 
+A segurança física envolve a proteção dos dispositivos físicos, como servidores, \textit{data centers} e dispositivos de rede, 
 contra acessos não autorizados, roubos e danos. Isto inclui medidas como controlo de acesso físico, vigilância por vídeo, 
 sistemas de alarme e proteção contra desastres naturais. No contexto da SEGNAC4, a segurança física é fundamental para garantir 
 o acesso restrito a áreas sensíveis e a proteção dos equipamentos contra ameaças que possam roubar ou danificar a informação armazenada.
 %---------------------------------------------------------------------------------------------------------------------------
 \subsubsection{Segurança Lógica}
 A segurança lógica baseia-se na proteção dos sistemas informáticos e das redes contra acessos não autorizados digitalmente, onde as medidas 
-incluem autenticação, criptografia, firewalls, entre outros métodos que possam limitar o acesso a estes sistemas. 
+incluem autenticação, criptografia, \textit{firewalls}, entre outros métodos que possam limitar o acesso a estes sistemas. 
 No âmbito da \textit{SEGNAC4}, é essencial implementar estas medidas para garantir a confidencialidade e integridade da informação classificada que está 
 armazenada ou a ser transmitida através de sistemas informáticos.
 %---------------------------------------------------------------------------------------------------------------------------
 \subsubsection{Segurança Humana}
 A segurança humana refere-se à formação e sensibilização dos utilizadores para garantir que compreendam os riscos 
-ao quais estão exposos e adotem práticas seguras, como a criação de palavras-passe fortes, o reconhecimento de tentativas de phishing,
+ao quais estão exposos e adotem práticas seguras, como a criação de palavras-passe fortes, o reconhecimento de tentativas de \textit{phishing}
 e não partilhar informações sobre o trabalho, especialmente em ambientes de acesso público. No contexto da \textit{SEGNAC4}, a segurança humana é 
 crucial para prevenir vulnerabilidades que possam ser exploradas por atacantes, já que o fator humano é frequentemente a maior fraqueza 
 dos sistemas informáticos.
@@ -307,8 +307,6 @@ ataques, segmentação de redes para evitar a propagação de incidentes e segre
 Este conceito coincide com a \textit{Resolução do Conselho de Ministros 41/2018}, que promove o reforço das capacidades de monitorização, 
 deteção, resposta a incidentes e incentiva a implementação de medidas técnicas para aumentar a resiliência das infraestruturas 
 críticas e a promoção de uma cultura de segurança transversal em todos os setores, sejam estes públicos, privados ou académicos. 
-Assim, a Governança apresentada no curso está plenamente alinhada com os objetivos estratégicos da resolução no 
-contexto da cibersegurança.
 
 É possível afirmar, com toda a certeza, que a Governança apresentada no curso está perfeitamente alinhada com os objetivos estratégicos da 
 \textit{Resolução do Conselho de Ministros 41/2018}, no que diz respeito ao reforço das capacidades de monitorização, deteção e resposta a incidentes, tal 
