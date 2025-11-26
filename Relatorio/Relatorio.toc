@@ -1,8 +1,6 @@
 \babel@toc {portuguese}{}\relax 
 \contentsline {section}{\numberline {1}Grupo I - Professor Rui Silva}{1}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Pergunta - Apresentação de duas áreas do MITRE ATT\&CK}{1}{subsection.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1}Malware Protection}{1}{subsubsection.1.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.2}Incident Coordination}{2}{subsubsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1}Pergunta - Apresentação do Incident Coordination}{1}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Pergunta - MITRE - Projeto de ATT\&CK - Night Dragon}{2}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Pergunta - MITRE - Projeto ATT\&CK - Tática de Initial Access}{3}{subsection.1.3}%
 \contentsline {section}{\numberline {2}Grupo II - Professor Rogério Bravo}{4}{section.2}%

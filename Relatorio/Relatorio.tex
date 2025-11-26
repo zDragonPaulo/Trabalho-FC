@@ -164,39 +164,43 @@ Work Resolution
 \section{Grupo I - Professor Rui Silva}
 Nesta secção serão respondidas as questões do Grupo I, focando-se na áreas do MITRE ATT\&CK 
 lecionadas pelo professor Rui Silva.
-\subsection{Pergunta - Apresentação de duas áreas do MITRE ATT\&CK}
-Em resposta à questão 1.1, foram escolhidas para apresentar as áreas de \textit{Malware Protection} e \textit{Incident Coordination}, que podem ser
-consideradas como mutualismo/simbiose, uma vez que ambas as áreas trabalham em conjunto para fortalecer a defesa contra ameaças. Caso uma ameaça 
-seja detectada, pela área de \textit{Malware Protection}, a área de \textit{Incident Coordination} entra em ação para coordenar a resposta ao incidente,
-assegurando que as medidas adequadas sejam tomadas para mitigar o impacto da ameaça.
-\subsubsection{Malware Protection}
-A proteção contra malware envolve a implementação de medidas e tecnologias para prevenir, detectar e remover software malicioso que possa comprometer a segurança dos sistemas informáticos. No entanto, esta 
-proteção não é infalível, podendo ser contornada por \textit{malwares} que esteja camuflado ou que nunca tenha sido identificado, no caso do último, é conhecido como \textit{Zero-Day Malware}. Esta proteção 
-funciona através da análise de padrões comuns em ataques (CAPE), sendo que estes padrões foram identificados através do MAEC (Malware Attribute Enumeration and Characterization), que é um padrão 
-para a representação de informações sobre malware, permitindo a troca estruturada de dados entre diferentes ferramentas e sistemas de segurança. O objetivo principal do MAEC é facilitar a 
-detecção, análise e resposta a ameaças de malware, promovendo a interoperabilidade entre diferentes soluções de segurança. Este é utilizado pelo Incident Coordination para ajudar a prevenir 
-novos ataques com base no que a proteção de malware não conseguiu impedir.
+
+\subsection{Pergunta - Apresentação do Incident Coordination}
+Em resposta à questão 1.1, foi escolhido o tema \textit{Incident Coordination}.
+A coordenação de incidentes consiste na gestão centralizada e na resposta a incidentes de segurança informática 
+que ultrapassam as medidas preventivas. Engloba as fases de identificação, triagem e análise, contenção, erradicação, 
+recuperação e lições aprendidas. Uma coordenação eficaz minimiza o impacto das ameaças e assegura a continuidade das operações.
+
+Para suportar estas atividades procede-se à correlação de informação proveniente de múltiplas fontes (logs, 
+SIEM, deteções de endpoints, telemetria de rede e inteligência de ameaças). Existem formatos e protocolos que 
+facilitam a troca e automatização desta informação: 
+
+\begin{enumerate}
+    \item IODEF (Incident Object Description Exchange Format) é um formato para descrever e trocar relatórios de incidentes;
+    \item o STIX (Structured Threat Information eXpression) define um modelo para representar indicadores e contexto de ameaças; 
+    \item o TAXII (Trusted Automated eXchange of Indicator Information) fornece os mecanismos de transporte/partilha de objetos 
+    STIX entre sistemas; 
+    \item RID (Realtime Inter-network Defense) refere-se a mecanismos para a troca automática, em tempo quase real, de informações 
+    de defesa entre redes. 
+\end{enumerate}
+Estes padrões são complementares e permitem melhorar a deteção, correlação e resposta a incidentes, 
+incluindo automação de ações quando apropriado.
+
 \newpage
-\subsubsection{Incident Coordination}
-A coordenação de incidentes envolve a gestão e resposta a incidentes de segurança informática que não tenham sido superados pela proteção de malware, garantindo que as ameaças sejam tratadas de forma eficaz e eficiente. Isto inclui a identificação, análise, 
-contenção, erradicação e recuperação de incidentes de segurança. A coordenação eficaz de incidentes é crucial para minimizar o impacto das ameaças e garantir a continuidade das operações.
-Integrando e correlacionando informação de multiplicas fontes estáticos e dinâmicas, mais conhecidamente como IODEF (Incident Object Description Exchange Format), que é um padrão para a troca estruturada 
-de informações sobre incidentes de segurança informática, sendo que isto permite detetar com cada vez mais qualidade a presença de malware através da análise 
-da sua assinatura. Isto fica automatizado com o RID (Realtime Inter-network Defense), que é um protocolo que permite a troca automática e segura de informações sobre ameaças. Existem ainda outros 
-prótocolos como o \textit{TAXII} (Trusted Automated eXchange of Indicator Information) que é um protocolo para a troca automatizada de indicadores de ameaças, e o \textit{STIX} (Structured Threat Information eXpression) 
-que é uma linguagem padronizada para a representação de informações sobre ameaças cibernéticas, e estes são complementares sendo que o STIX é o formato que passa pelo TAXII para ser transmitido entre sistemas.
-
-
 \subsection{Pergunta - MITRE - Projeto de ATT\&CK - Night Dragon}
-O projecto \textit{Night Dragon} foi uma campanha de ciberespionagem que visou várias empresas de energia, petróleo e os seus derivados, 
-sediadas no Cazaquistão, Taiwan, Grécia e Estados Unidos da América, e a campanha foi descoberta em novembro de 2009 pela McAfee. 
-O objetivo principal desta campanha era roubar informações confidenciais e proprietárias relacionadas com a indústria de energia. 
-Primeiramente, os atacantes compraram serviços para alojar os servidores que iriam controlar as vítimas e usavam os protocolos HTTP 
-como meio de comunicação, pois estes ficavam disfarçados entre o tráfego legítimo. A partir de SQL Injection para obter os dados, 
-era utilizado o software \textit{Cain \& Abel} para realizar ataques de brute-force para decifrar os hashes das palavras-passe 
-dos administradores de sistemas, conseguindo assim aceder remotamente aos sistemas das vítimas, e com o \textit{zwShell} 
-implantado os atacantes podiam executar comandos remotamente. Com isso, os atacantes começaram a obter ficheiros e outras 
-informações sensíveis de sistemas comprometidos, enviando-os para os servidores que tinham sido comprados anteriormente.
+O projecto \textit{Night Dragon} foi uma campanha de ciberespionagem que teve como alvo várias empresas de energia, petróleo e 
+os seus derivados, sediadas no Cazaquistão, Taiwan, Grécia e Estados Unidos da América. A campanha foi descoberta em novembro 
+de 2009 pela McAfee. 
+
+O objetivo principal desta campanha foi roubar informações confidenciais e proprietárias relacionadas com a indústria de energia. 
+Primeiramente, os atacantes compraram serviços para alojar os servidores que viriam controlar as vítimas e usaram os protocolos HTTP 
+como meio de comunicação, de modo a ficarem disfarçados entre o tráfego legítimo. A partir de ataques de SQL Injection foram obtidos os dados, 
+e esses, eram submetidos ao software \textit{Cain \& Abel} para realizar ataques de brute-force para decifrar os hashes das palavras-passe 
+dos administradores de sistemas. 
+
+Após decifrar os hashs, os atacantes conseguiram aceder remotamente aos sistemas das vítimas, e com o \textit{zwShell} 
+implantado os atacantes podiam executar comandos remotamente e começaram a obter ficheiros e outras 
+informações sensíveis dos sistemas comprometidos, enviando-os para os servidores que tinham sido comprados anteriormente.
 
 
 Ainda utilizaram um RAT (Remote Access Trojan), usando os servidores afetados para fazer ataques a alvos internos através 
@@ -208,6 +212,7 @@ Após a investigação, a McAfee concluiu que o grupo responsável pelo \textit{
 trabalhava entre as 9h e as 17h no horário de Pequim, e que o grupo tinha como alvo empresas específicas, sugerindo 
 que a campanha era motivada por interesses económicos e estratégicos. 
 
+\newpage
 
 \subsection{Pergunta - MITRE - Projeto ATT\&CK - Tática de Initial Access}
 
