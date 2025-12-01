@@ -9,9 +9,10 @@
 \contentsline {subsubsection}{\numberline {2.1.2}Pessoas}{4}{subsubsection.2.1.2}%
 \contentsline {subsubsection}{\numberline {2.1.3}Organizações}{5}{subsubsection.2.1.3}%
 \contentsline {subsubsection}{\numberline {2.1.4}Segurança Física}{5}{subsubsection.2.1.4}%
-\contentsline {subsubsection}{\numberline {2.1.5}O pilar na intervenção digital forense}{5}{subsubsection.2.1.5}%
-\contentsline {subsection}{\numberline {2.2}As três dimensões da segurança da informação}{6}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Segurança Física}{6}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Segurança Lógica}{6}{subsubsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.3}Segurança Humana}{6}{subsubsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.3}O Conceito de Governança}{7}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.1.5}Relação entre Pilares e Princípios}{5}{subsubsection.2.1.5}%
+\contentsline {subsubsection}{\numberline {2.1.6}O pilar na intervenção digital forense}{6}{subsubsection.2.1.6}%
+\contentsline {subsection}{\numberline {2.2}As três dimensões da segurança da informação}{7}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Segurança Física}{7}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Segurança Lógica}{7}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Segurança Humana}{7}{subsubsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.3}O Conceito de Governança}{8}{subsection.2.3}%

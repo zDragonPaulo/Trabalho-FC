@@ -82,7 +82,7 @@
         \vspace{1cm}
         
         % Local e data
-        {\large Beja, outubro de 2025}
+        {\large Beja, dezembro de 2025}
     \end{titlepage}
 }
 
@@ -115,7 +115,7 @@
         \vfill
         
         % Local e data
-        {\large Beja, outubro de 2025}
+        {\large Beja, dezembro de 2025}
     \end{titlepage}
 }
 
@@ -133,7 +133,9 @@
 % Abstract
 \section*{\LARGE\textbf{\textit{Resumo}}}
 
-Resolução do trabalho 
+Resolução do trabalho individual de Fundamentos de Cibersegurança, respondendo às questões propostas pelos professores Rui Silva 
+e Rogério Bravo, abrangendo tópicos como o MITRE ATT\&CK, incident coordination, pilares da cibersegurança, dimensões da 
+segurança da informação e o conceito de governança.
 
 
 \vspace{1cm}
@@ -141,21 +143,13 @@ Resolução do trabalho
 \textbf{Keywords:} cibersegurança
 %--------------------------------------------------------------------------------------------------------------------------------------
 
-\section*{\LARGE\textbf{\textit{Abstract}}}
-
-Work Resolution
-
-\vspace{1cm}
-% Keywords
-\textbf{Keywords:} cybersecurity
 \renewcommand{\contentsname}{Índice}       % Título do sumário
-\renewcommand{\listfigurename}{Índice de Figuras} % Título da lista de figuras
+
 
 % Início do conteúdo do relatório
 \newpage
 \doublespacing
 \tableofcontents
-\listoffigures
 \doublespacing
 
 \newpage
@@ -223,8 +217,21 @@ funcionário da empresa pode ser alvo deste tipo e-mails, enquanto que no \texti
 vitíma através de SMS, aplicações ou chamadas telefónicas. Por fim, no \textit{ICS}, o alvo vai ser o funcionário ou grupo de funcionários 
 de uma organização que possua acesso a sistemas industriais, e estes podem ser vítimas através de e-mails ou chamadas telefónicas. 
 
-Existem diversas variantes de \textit{Phishing/Spear-Phishing} porque cada ambiente tem as suas particularidades, e o atacante deve adaptar-se a cada um deles, 
-maximizando as chances de sucesso para cada situação, onde cada alvo tem os seus próprios hábitos e rotinas.
+Existem diversas variantes de \textit{Phishing} porque cada ambiente tem as suas particularidades, e o atacante deve adaptar-se a cada um deles, 
+maximizando as chances de sucesso para cada situação, onde cada alvo tem os seus próprios hábitos e rotinas. No caso do \textit{Enterprise}, o \textit{Phising} 
+tem quatro variantes principais: \textit{Spear-Phishing Attachment}, onde o atacante envia um e-mail com um anexo malicioso que, quando aberto, 
+instala malware no sistema da vítima, o \textit{Spear-Phishing Link}, onde o atacante envia um e-mail com um link malicioso que, quando clicado, 
+redireciona a vítima para um site falso ou instala malware, o \textit{Spear-Phishing via Service}, onde o atacante utiliza serviços de mensagens 
+instantâneas ou redes sociais para enviar mensagens maliciosas, e por fim, o \textit{Spear-Phishing Voice}, onde o atacante faz chamadas telefónicas
+fingindo ser uma entidade confiável para enganar a vítima e obter informações sensíveis ou instalar malware. 
+
+
+Existem ainda outras técnicas dentro do \textit{Initial Access}, como a exploração de serviços públicos expostos como API's para o 
+caso do \textit{Enterprise}, serviços de cloud no caso do \textit{Mobile} e por fim, no caso do \textit{ICS} existe a possibilidade 
+de um gateway exposto que possa ser explorado. 
+
+Outra técnica possível é a instalação de softwares de terceiros que possam ter sido comprometidos, como por exemplo, bibliotecas ou atualizações 
+de software no caso do \textit{Enterprise}, aplicações móveis no caso do \textit{Mobile} e softwares de monitorização ou controlo no caso do \textit{ICS}.
 \newpage
 \section{Grupo II - Professor Rogério Bravo}
 
@@ -261,7 +268,28 @@ sistemas de alarme e proteção contra desastres naturais. Ou seja, é fundament
 restrito apenas a pessoas autorizadas. Se possível também devem estar protegido contra falhas de energia ou falhas 
 de \textit{hardware}, como por exemplo, um disco rígido com defeito.
 %---------------------------------------------------------------------------------------------------------------------------
+\subsubsection{Relação entre Pilares e Princípios}
+Cada pilar da segurança da informação contribui de forma distinta para assegurar os princípios da segurança, sendo estes a Confidencialidade, Integridade, Disponibilidade, 
+e o Não Repúdio. A seguir está uma descrição de como cada pilar se relaciona com estes princípios:
 
+\begin{description}
+    \item[Pessoas:] 
+    Este pilar é determinante para a \textbf{Confidencialidade} e \textbf{Autenticidade}. É através da consciencialização dos utilizadores que se previnem fugas 
+    de informação (engenharia social) e se garante que as credenciais de acesso são utilizadas apenas pelos legítimos proprietários.
+    
+    \item[Segurança Física:] 
+    Atua primariamente na garantia da \textbf{Disponibilidade} e \textbf{Integridade física} dos ativos. Assegura que o hardware e as infraestruturas (energia, 
+    climatização) permanecem operacionais e protegidos contra roubo ou destruição por desastres naturais.
+    \newpage
+    \item[Tecnológico:] 
+    É o principal motor técnico para a \textbf{Integridade} e o \textbf{Não Repúdio}. Utiliza mecanismos lógicos como \textit{hashing}, assinaturas digitais e 
+    sistemas de \textit{logging} para validar que os dados não foram alterados e para registar inequivocamente a autoria das ações. Também reforça a 
+    Confidencialidade através da criptografia.
+    
+    \item[Organizacional:] 
+    Este pilar é \textbf{transversal a todos os princípios}. É responsável pela governação, definindo através de políticas e normas o nível de Confidencialidade, Integridade e Disponibilidade exigido para cada tipo de informação, servindo de base legal para a aplicação de sanções em caso de violação (suportando o aspeto jurídico do Não Repúdio).
+\end{description}
+%---------------------------------------------------------------------------------------------------------------------------
 \subsubsection{O pilar na intervenção digital forense}
 No contexto da intervenção digital forense, o pilar das pessoas é particularmente crucial, uma vez que 
 os profissionais forenses são responsáveis por coletar, analisar e preservar evidências digitais de forma 
