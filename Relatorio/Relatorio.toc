@@ -3,16 +3,16 @@
 \contentsline {subsection}{\numberline {1.1}Pergunta - Apresentação do Incident Coordination}{1}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Pergunta - MITRE - Projeto de ATT\&CK - Night Dragon}{2}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Pergunta - MITRE - Projeto ATT\&CK - Tática de Initial Access}{3}{subsection.1.3}%
-\contentsline {section}{\numberline {2}Grupo II - Professor Rogério Bravo}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Pergunta - Os 4 Pilares da Cibersegurança}{4}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Tecnologias}{4}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}Pessoas}{4}{subsubsection.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.3}Organizações}{5}{subsubsection.2.1.3}%
-\contentsline {subsubsection}{\numberline {2.1.4}Segurança Física}{5}{subsubsection.2.1.4}%
-\contentsline {subsubsection}{\numberline {2.1.5}Relação entre Pilares e Princípios}{5}{subsubsection.2.1.5}%
-\contentsline {subsubsection}{\numberline {2.1.6}O pilar na intervenção digital forense}{6}{subsubsection.2.1.6}%
-\contentsline {subsection}{\numberline {2.2}As três dimensões da segurança da informação}{7}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Segurança Física}{7}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Segurança Lógica}{7}{subsubsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.3}Segurança Humana}{7}{subsubsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.3}O Conceito de Governança}{8}{subsection.2.3}%
+\contentsline {section}{\numberline {2}Grupo II - Professor Rogério Bravo}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Pergunta - Os 4 Pilares da Cibersegurança}{5}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Tecnologias}{5}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Pessoas}{5}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Organizações}{6}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}Segurança Física}{6}{subsubsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.5}Relação entre Pilares e Princípios}{6}{subsubsection.2.1.5}%
+\contentsline {subsubsection}{\numberline {2.1.6}O pilar na intervenção digital forense}{7}{subsubsection.2.1.6}%
+\contentsline {subsection}{\numberline {2.2}As três dimensões da segurança da informação}{8}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Segurança Física}{8}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Segurança Lógica}{8}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Segurança Humana}{8}{subsubsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.3}O Conceito de Governança}{9}{subsection.2.3}%
