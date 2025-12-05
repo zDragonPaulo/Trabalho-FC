@@ -160,7 +160,7 @@ Nesta secção serão respondidas as questões do Grupo I, focando-se na áreas 
 lecionadas pelo professor Rui Silva.
 
 \subsection{Pergunta - Apresentação do Incident Coordination}
-Em resposta à questão 1.1, foi escolhido o tema \textit{Incident Coordination}.
+Em resposta à questão 1.1, foi escolhido o tema \textit{Incident Coordination} (\cite{incident_coordination}).
 A coordenação de incidentes consiste na gestão centralizada e na resposta a incidentes de segurança informática 
 que ultrapassam as medidas preventivas. Engloba as fases de identificação, triagem e análise, contenção, erradicação, 
 recuperação e lições aprendidas. Uma coordenação eficaz minimiza o impacto das ameaças e assegura a continuidade das operações.
@@ -182,7 +182,7 @@ incluindo automação de ações quando apropriado.
 
 \newpage
 \subsection{Pergunta - MITRE - Projeto de ATT\&CK - Night Dragon}
-O projecto \textit{Night Dragon} foi uma campanha de ciberespionagem que teve como alvo várias empresas de energia, petróleo e 
+O projecto \textit{Night Dragon} (\cite{dragon}) foi uma campanha de ciberespionagem que teve como alvo várias empresas de energia, petróleo e 
 os seus derivados, sediadas no Cazaquistão, Taiwan, Grécia e Estados Unidos da América. A campanha foi descoberta em novembro 
 de 2009 pela McAfee. 
 
@@ -210,7 +210,7 @@ que a campanha era motivada por interesses económicos e estratégicos.
 
 \subsection{Pergunta - MITRE - Projeto ATT\&CK - Tática de Initial Access}
 
-Foi escolhida a tática de \textit{Initial Access} do MITRE ATT\&CK, que é a primeira fase do ciclo de vida de um ataque cibernético, 
+Foi escolhida a tática de \textit{Initial Access}(\cite{mitre_initial_access}) do MITRE ATT\&CK, que é a primeira fase do ciclo de vida de um ataque cibernético, 
 e será comparada em três ambientes distintos: \textit{Enterprise}, \textit{Mobile} e \textit{ICS} (Industrial Control Systems). 
 O ambiente \textit{Enterprise} refere-se a redes corporativas e sistemas informáticos utilizados por empresas, o ambiente \textit{Mobile} 
 refere-se a dispositivos móveis como smartphones e tablets, e o ambiente \textit{ICS} refere-se a sistemas de controlo industrial utilizados 
@@ -238,12 +238,28 @@ de um gateway exposto que possa ser explorado.
 
 Outra técnica possível é a instalação de softwares de terceiros que possam ter sido comprometidos, como por exemplo, bibliotecas ou atualizações 
 de software no caso do \textit{Enterprise}, aplicações móveis no caso do \textit{Mobile} e softwares de monitorização ou controlo no caso do \textit{ICS}.
+
+Existem ainda outras técnicas que podem ser utilizadas para obter acesso inicial, como a Drive-by Compromise, onde o atacante compromete um site legítimo 
+para infectar visitantes com malware, sendo que afeta os três ambientes que estão a ser mencionados, pois basta um utilizador com previlégios de administrador 
+aceder ao site comprometido e por erro, clicar num link ou descarregar um ficheiro malicioso mesmo que sem o seu conhecimento, o atacante consegue obter acesso inicial.
+Existe ainda a técnica de \textit{Removale Media}, onde o atacante utiliza dispositivos de armazenamento removíveis, como pen's ou discos externos, que ao serem 
+inseridos no sistema da vítima, instalam malware ou permitem o acesso remoto. Esta técnica é mais comum no ambiente \textit{Enterprise} e \textit{ICS},
+onde os sistemas podem não ter proteções adequadas contra dispositivos externos, enquanto que no ambiente \textit{Mobile} é menos comum, pois os dispositivos móveis
+geralmente não permitem a execução automática de malware a partir de dispositivos externos. Para o caso do \textit{Enterprise}, existe ainda a técnica de \textit{Hardware Additions} 
+onde o atacante insere um hardware que pode ser um \textit{keyLogger} que regista as teclas digitadas e envia para o atacante, ou um dispostivo que insere 
+comandos maliciosos na vítima ao ser ligado ao sistema. Esta técnica é diferente do \textit{Removale Media}, pois a arma é o hardware em si, e não o conteúdo que este possa ter e 
+não necessita de ser lido ou executado para que o ataque seja bem-sucedido.
+
+Em suma, a tática de \textit{Initial Access} do MITRE ATT\&CK apresenta várias técnicas que podem ser adaptadas a diferentes ambientes,
+permitindo aos atacantes obter acesso inicial a sistemas e redes de forma eficaz.
+
+
 \newpage
 \section{Grupo II - Professor Rogério Bravo}
 
 Nesta secção serão respondidas as questões do Grupo II, focando-se na parte da teoria da cibersegurança, 
 variando desde os pilares da cibersegurança, intervenção digital forense, os padrões \textit{ISO 27000}, as três dimensões 
-da cibersegurança, entre outros tópicos lecionados pelo professor Rogério Bravo.
+da cibersegurança, entre outros tópicos lecionados pelo professor Rogério Bravo. As respostas serão baseadas em
 \subsection{Pergunta - Os 4 Pilares da Cibersegurança}
 Os quatro pilares da cibersegurança são as tecnologias, as pessoas, as organizações e a segurança física. 
 Estes pilares sustentam a base em que as \textit{ISO 27000} são construídas, e cada um deles desempenha um papel 

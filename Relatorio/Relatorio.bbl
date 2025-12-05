@@ -16,5 +16,202 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{dragon}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ab9723dcbed463e50ae41813fa1437ff}{%
+           family={McAfee},
+           familyi={M\bibinitperiod},
+           given={MITRE},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ab9723dcbed463e50ae41813fa1437ff}
+      \strng{fullhash}{ab9723dcbed463e50ae41813fa1437ff}
+      \strng{fullhashraw}{ab9723dcbed463e50ae41813fa1437ff}
+      \strng{bibnamehash}{ab9723dcbed463e50ae41813fa1437ff}
+      \strng{authorbibnamehash}{ab9723dcbed463e50ae41813fa1437ff}
+      \strng{authornamehash}{ab9723dcbed463e50ae41813fa1437ff}
+      \strng{authorfullhash}{ab9723dcbed463e50ae41813fa1437ff}
+      \strng{authorfullhashraw}{ab9723dcbed463e50ae41813fa1437ff}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Night Dragon}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb https://attack.mitre.org/campaigns/C0002/
+      \endverb
+      \verb{url}
+      \verb https://attack.mitre.org/campaigns/C0002/
+      \endverb
+    \endentry
+    \entry{incident_coordination}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ed5f36b0c6246bf884830c7836478e39}{%
+           family={MITRE},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ed5f36b0c6246bf884830c7836478e39}
+      \strng{fullhash}{ed5f36b0c6246bf884830c7836478e39}
+      \strng{fullhashraw}{ed5f36b0c6246bf884830c7836478e39}
+      \strng{bibnamehash}{ed5f36b0c6246bf884830c7836478e39}
+      \strng{authorbibnamehash}{ed5f36b0c6246bf884830c7836478e39}
+      \strng{authornamehash}{ed5f36b0c6246bf884830c7836478e39}
+      \strng{authorfullhash}{ed5f36b0c6246bf884830c7836478e39}
+      \strng{authorfullhashraw}{ed5f36b0c6246bf884830c7836478e39}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Incident Coordination}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://makingsecuritymeasurable.mitre.org/directory/areas/incidentcoordination.html
+      \endverb
+      \verb{url}
+      \verb https://makingsecuritymeasurable.mitre.org/directory/areas/incidentcoordination.html
+      \endverb
+    \endentry
+    \entry{mitre_initial_access}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ed5f36b0c6246bf884830c7836478e39}{%
+           family={MITRE},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ed5f36b0c6246bf884830c7836478e39}
+      \strng{fullhash}{ed5f36b0c6246bf884830c7836478e39}
+      \strng{fullhashraw}{ed5f36b0c6246bf884830c7836478e39}
+      \strng{bibnamehash}{ed5f36b0c6246bf884830c7836478e39}
+      \strng{authorbibnamehash}{ed5f36b0c6246bf884830c7836478e39}
+      \strng{authornamehash}{ed5f36b0c6246bf884830c7836478e39}
+      \strng{authorfullhash}{ed5f36b0c6246bf884830c7836478e39}
+      \strng{authorfullhashraw}{ed5f36b0c6246bf884830c7836478e39}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Initial Access}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://attack.mitre.org/tactics/TA0001/
+      \endverb
+      \verb{url}
+      \verb https://attack.mitre.org/tactics/TA0001/
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{dragon}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ab9723dcbed463e50ae41813fa1437ff}{%
+           family={McAfee},
+           familyi={M\bibinitperiod},
+           given={MITRE},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ab9723dcbed463e50ae41813fa1437ff}
+      \strng{fullhash}{ab9723dcbed463e50ae41813fa1437ff}
+      \strng{fullhashraw}{ab9723dcbed463e50ae41813fa1437ff}
+      \strng{bibnamehash}{ab9723dcbed463e50ae41813fa1437ff}
+      \strng{authorbibnamehash}{ab9723dcbed463e50ae41813fa1437ff}
+      \strng{authornamehash}{ab9723dcbed463e50ae41813fa1437ff}
+      \strng{authorfullhash}{ab9723dcbed463e50ae41813fa1437ff}
+      \strng{authorfullhashraw}{ab9723dcbed463e50ae41813fa1437ff}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Night Dragon}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb https://attack.mitre.org/campaigns/C0002/
+      \endverb
+      \verb{url}
+      \verb https://attack.mitre.org/campaigns/C0002/
+      \endverb
+    \endentry
+    \entry{incident_coordination}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ed5f36b0c6246bf884830c7836478e39}{%
+           family={MITRE},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ed5f36b0c6246bf884830c7836478e39}
+      \strng{fullhash}{ed5f36b0c6246bf884830c7836478e39}
+      \strng{fullhashraw}{ed5f36b0c6246bf884830c7836478e39}
+      \strng{bibnamehash}{ed5f36b0c6246bf884830c7836478e39}
+      \strng{authorbibnamehash}{ed5f36b0c6246bf884830c7836478e39}
+      \strng{authornamehash}{ed5f36b0c6246bf884830c7836478e39}
+      \strng{authorfullhash}{ed5f36b0c6246bf884830c7836478e39}
+      \strng{authorfullhashraw}{ed5f36b0c6246bf884830c7836478e39}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Incident Coordination}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://makingsecuritymeasurable.mitre.org/directory/areas/incidentcoordination.html
+      \endverb
+      \verb{url}
+      \verb https://makingsecuritymeasurable.mitre.org/directory/areas/incidentcoordination.html
+      \endverb
+    \endentry
+    \entry{mitre_initial_access}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ed5f36b0c6246bf884830c7836478e39}{%
+           family={MITRE},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ed5f36b0c6246bf884830c7836478e39}
+      \strng{fullhash}{ed5f36b0c6246bf884830c7836478e39}
+      \strng{fullhashraw}{ed5f36b0c6246bf884830c7836478e39}
+      \strng{bibnamehash}{ed5f36b0c6246bf884830c7836478e39}
+      \strng{authorbibnamehash}{ed5f36b0c6246bf884830c7836478e39}
+      \strng{authornamehash}{ed5f36b0c6246bf884830c7836478e39}
+      \strng{authorfullhash}{ed5f36b0c6246bf884830c7836478e39}
+      \strng{authorfullhashraw}{ed5f36b0c6246bf884830c7836478e39}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Initial Access}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://attack.mitre.org/tactics/TA0001/
+      \endverb
+      \verb{url}
+      \verb https://attack.mitre.org/tactics/TA0001/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
