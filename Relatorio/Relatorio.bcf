@@ -3074,6 +3074,8 @@
     <bcf:citekey order="1" intorder="1">incident_coordination</bcf:citekey>
     <bcf:citekey order="2" intorder="1">dragon</bcf:citekey>
     <bcf:citekey order="3" intorder="1">mitre_initial_access</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">slide_aula</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">video_aula</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

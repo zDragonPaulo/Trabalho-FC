@@ -19,6 +19,76 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{slide_aula}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5f0ae826f2383d7b9ab7b4cdf86fd1fd}{%
+           family={Bravo},
+           familyi={B\bibinitperiod},
+           given={Rogério},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \strng{fullhash}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \strng{fullhashraw}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \strng{bibnamehash}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \strng{authorbibnamehash}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \strng{authornamehash}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \strng{authorfullhash}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \strng{authorfullhashraw}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Slides das Aulas de Cibersegurança}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://cms.ipbeja.pt/pluginfile.php/397798/mod_resource/content/4/1-_25MESI01_fundamentos_intro.pdf
+      \endverb
+      \verb{url}
+      \verb https://cms.ipbeja.pt/pluginfile.php/397798/mod_resource/content/4/1-_25MESI01_fundamentos_intro.pdf
+      \endverb
+    \endentry
+    \entry{video_aula}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5f0ae826f2383d7b9ab7b4cdf86fd1fd}{%
+           family={Bravo},
+           familyi={B\bibinitperiod},
+           given={Rogério},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \strng{fullhash}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \strng{fullhashraw}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \strng{bibnamehash}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \strng{authorbibnamehash}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \strng{authornamehash}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \strng{authorfullhash}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \strng{authorfullhashraw}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Vídeos das Aulas de Cibersegurança}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://ipbejapt-my.sharepoint.com/personal/rui_silva_ipbeja_pt/_layouts/15/stream.aspx?sw=bypass&bypassReason=abandoned&id=%2Fpersonal%2Frui_silva_ipbeja_pt%2FDocuments%2FVídeos-MESI-2526-FC-e-CCA%2FMESI-2526-FC-Aula-5-RB%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&startedResponseCatch=true&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E639a4fc1-cc1e-4968-97b4-32fc4fe50fcc
+      \endverb
+      \verb{url}
+      \verb https://ipbejapt-my.sharepoint.com/personal/rui_silva_ipbeja_pt/_layouts/15/stream.aspx?sw=bypass&bypassReason=abandoned&id=%2Fpersonal%2Frui_silva_ipbeja_pt%2FDocuments%2FV%C3%ADdeos-MESI-2526-FC-e-CCA%2FMESI-2526-FC-Aula-5-RB%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&startedResponseCatch=true&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E639a4fc1-cc1e-4968-97b4-32fc4fe50fcc
+      \endverb
+    \endentry
     \entry{dragon}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ab9723dcbed463e50ae41813fa1437ff}{%
@@ -116,6 +186,76 @@
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
+    \entry{slide_aula}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5f0ae826f2383d7b9ab7b4cdf86fd1fd}{%
+           family={Bravo},
+           familyi={B\bibinitperiod},
+           given={Rogério},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \strng{fullhash}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \strng{fullhashraw}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \strng{bibnamehash}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \strng{authorbibnamehash}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \strng{authornamehash}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \strng{authorfullhash}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \strng{authorfullhashraw}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Slides das Aulas de Cibersegurança}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://cms.ipbeja.pt/pluginfile.php/397798/mod_resource/content/4/1-_25MESI01_fundamentos_intro.pdf
+      \endverb
+      \verb{url}
+      \verb https://cms.ipbeja.pt/pluginfile.php/397798/mod_resource/content/4/1-_25MESI01_fundamentos_intro.pdf
+      \endverb
+    \endentry
+    \entry{video_aula}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5f0ae826f2383d7b9ab7b4cdf86fd1fd}{%
+           family={Bravo},
+           familyi={B\bibinitperiod},
+           given={Rogério},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \strng{fullhash}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \strng{fullhashraw}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \strng{bibnamehash}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \strng{authorbibnamehash}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \strng{authornamehash}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \strng{authorfullhash}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \strng{authorfullhashraw}{5f0ae826f2383d7b9ab7b4cdf86fd1fd}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Vídeos das Aulas de Cibersegurança}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://ipbejapt-my.sharepoint.com/personal/rui_silva_ipbeja_pt/_layouts/15/stream.aspx?sw=bypass&bypassReason=abandoned&id=%2Fpersonal%2Frui_silva_ipbeja_pt%2FDocuments%2FVídeos-MESI-2526-FC-e-CCA%2FMESI-2526-FC-Aula-5-RB%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&startedResponseCatch=true&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E639a4fc1-cc1e-4968-97b4-32fc4fe50fcc
+      \endverb
+      \verb{url}
+      \verb https://ipbejapt-my.sharepoint.com/personal/rui_silva_ipbeja_pt/_layouts/15/stream.aspx?sw=bypass&bypassReason=abandoned&id=%2Fpersonal%2Frui_silva_ipbeja_pt%2FDocuments%2FV%C3%ADdeos-MESI-2526-FC-e-CCA%2FMESI-2526-FC-Aula-5-RB%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&startedResponseCatch=true&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E639a4fc1-cc1e-4968-97b4-32fc4fe50fcc
+      \endverb
+    \endentry
     \entry{dragon}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ab9723dcbed463e50ae41813fa1437ff}{%
